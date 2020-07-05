@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\casomira.Common\casomira.Common.csproj" />
+    <ProjectReference Include="..\casomira.DAL\casomira.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
