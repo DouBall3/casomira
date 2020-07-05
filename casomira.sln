@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casomira.APP", "casomira.APP\casomira.APP.csproj", "{78703332-FCC2-4AB1-B338-E8679852100A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "casomira.BL", "casomira.BL\casomira.BL.csproj", "{AF16596E-81A4-4304-AAA3-79F1490AB544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casomira.BL", "casomira.BL\casomira.BL.csproj", "{AF16596E-81A4-4304-AAA3-79F1490AB544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "casomira.DAL", "casomira.DAL\casomira.DAL.csproj", "{DC5AF66A-C5B1-4448-9AD9-FA1B2E4C635F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "casomira.DAL", "casomira.DAL\casomira.DAL.csproj", "{DC5AF66A-C5B1-4448-9AD9-FA1B2E4C635F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cesomira.DAL.Tests", "cesomira.DAL.Tests\cesomira.DAL.Tests.csproj", "{3FFBD7BB-8933-4AB8-A74C-99367459D87C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cesomira.DAL.Tests", "cesomira.DAL.Tests\cesomira.DAL.Tests.csproj", "{3FFBD7BB-8933-4AB8-A74C-99367459D87C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "casomira.Common", "casomira.Common\casomira.Common.csproj", "{AF3EFA55-C09F-4D91-89F7-3CE10B8BD50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caromira.APP", "caromira.APP\caromira.APP.csproj", "{5AB3CF53-325C-4ADA-9E5D-25E071D35CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78703332-FCC2-4AB1-B338-E8679852100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78703332-FCC2-4AB1-B338-E8679852100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78703332-FCC2-4AB1-B338-E8679852100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78703332-FCC2-4AB1-B338-E8679852100A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF16596E-81A4-4304-AAA3-79F1490AB544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF16596E-81A4-4304-AAA3-79F1490AB544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF16596E-81A4-4304-AAA3-79F1490AB544}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{AF3EFA55-C09F-4D91-89F7-3CE10B8BD50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3EFA55-C09F-4D91-89F7-3CE10B8BD50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3EFA55-C09F-4D91-89F7-3CE10B8BD50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB3CF53-325C-4ADA-9E5D-25E071D35CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB3CF53-325C-4ADA-9E5D-25E071D35CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB3CF53-325C-4ADA-9E5D-25E071D35CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB3CF53-325C-4ADA-9E5D-25E071D35CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

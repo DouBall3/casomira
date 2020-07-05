@@ -239,6 +239,40 @@ namespace cesomira.DAL.Tests
             Assert.Equal(person5, fromDb5, PersonEntity.PersonEntityComparer);
         }
 
+        [Fact]
+        public void GetHashCodeTests()
+        {
+            var id = Guid.NewGuid();
+            var team = new TeamEntity()
+            {
+                Category = Category.M,
+                Id = id,
+                Origin = "Test",
+                Variant = ""
+            };
+
+            var person = new PersonEntity()
+            {
+                Team = team,
+                LastName = "Prijmeni",
+                FirstName = "Jmeno",
+                Id = id,
+                Age = 25
+            };
+
+            Assert.Equal(TeamEntity.TeamEntityComparer.GetHashCode(team), HashCode.Combine(id, "Test", "", Category.M));
+            Assert.Equal(PersonEntity.PersonEntityComparer.GetHashCode(person), HashCode.Combine(id, "Jmeno", "Prijmeni", 25, team));
+        }
+
+        [Fact]
+        public void AddNewTimePersisted()
+        {
+            var time = new TimeEntity()
+            {
+                
+            };
+        }
+
         public void Dispose() => _measurementDbContext?.Dispose();
     }
 }

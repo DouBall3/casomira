@@ -23,7 +23,7 @@ namespace casomira.DAL.Entities
 
             public int GetHashCode(PersonEntity obj)
             {
-                return HashCode.Combine(obj.Id, obj.FirstName, obj.LastName, obj.Age);
+                return HashCode.Combine(obj.Id, obj.FirstName, obj.LastName, obj.Age, obj.Team);
             }
         }
 
